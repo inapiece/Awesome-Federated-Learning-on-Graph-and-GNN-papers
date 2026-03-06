@@ -1,74 +1,90 @@
-# Awesome-Federated-Learning-on-Graph-and-GNN-papers
-federated learning on graph, especially on graph neural networks (GNNs), knowledge graph, and private GNN.
-
 ## Federated Learning on Graphs
-1. \[Arxiv 2019\] **Peer-to-peer federated learning on graphs.** [paper](https://arxiv.org/pdf/1901.11173)
-2. \[NeurIPS Workshop 2019\] **Towards Federated Graph Learning for Collaborative Financial Crimes Detection.** [paper](https://arxiv.org/pdf/1909.12946)
-3. \[SPAWC 2021\] **A Graph Federated Architecture with Privacy Preserving Learning.** [paper](https://arxiv.org/pdf/2104.13215)
-4. \[Arxiv 2021\] **Federated Myopic Community Detection with One-shot Communication.** [paper](https://arxiv.org/pdf/2106.07255)
-5. \[ICCAD 2021\] **FL-DISCO: Federated Generative Adversarial Network for Graph-based Molecule Drug Discovery: Special Session Paper.** [paper](https://doi.org/10.1109/ICCAD51958.2021.9643440)
-6. \[ICML 2023\] **Personalized Subgraph Federated Learning.** [paper](https://arxiv.org/abs/2206.10206)
+
+1. [ICML 2023] **Personalized Subgraph Federated Learning**  
+   [paper](https://proceedings.mlr.press/v202/baek23a.html)
+
+2. [arXiv 2022-11-23] **Federated Learning on Non-IID Graphs via Structural Knowledge Sharing**  
+   [paper](https://arxiv.org/abs/2211.13009)
+
+3. [AAAI 2024] **Federated Graph Learning under Domain Shift with Generalizable Prototypes**  
+   [paper](https://ojs.aaai.org/index.php/AAAI/article/view/29468)
+
+4. [IJCAI 2023] **Federated Graph Semantic and Structural Learning**  
+   [paper](https://www.ijcai.org/proceedings/2023/426)
+
+5. [ICLR 2025] **Subgraph Federated Learning for Local Generalization**  
+   [paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/83b17fb3369b1effa97ca5409526b02e-Abstract-Conference.html)
+
+6. [ICML 2025] **GHOST: Generalizable One-Shot Federated Graph Learning with Proxy-Based Topology Knowledge Retention**  
+   [paper](https://proceedings.mlr.press/v267/qian25a.html)
+
+7. [NeurIPS 2025] **FedIGL: Federated Invariant Graph Learning for Non-IID Graphs**  
+   [paper](https://neurips.cc/virtual/2025/poster/118909)
+
+8. [NeurIPS 2025] **OASIS: One-Shot Federated Graph Learning via Wasserstein Assisted Knowledge Integration**  
+   [paper](https://neurips.cc/virtual/2025/poster/119003)
+
 
 ## Federated Learning on Graph Neural Networks
 
-### Survey Papers
-1. \[Arxiv 2021\] **FedGraphNN: A Federated Learning System and Benchmark for Graph Neural Networks.** [paper](https://arxiv.org/pdf/2104.07145) 
-2. \[Arxiv 2021\] **Federated Graph Learning -- A Position Paper.** [paper](https://arxiv.org/pdf/2105.11099)
-2. \[Arxiv 2022\] **Federated Graph Neural Networks: Overview, Techniques and Challenges** [paper](https://arxiv.org/pdf/2202.07256)
+### Survey / Benchmark / Library
+
+1. [ICLR-DPML 2021] **FedGraphNN: A Federated Learning System and Benchmark for Graph Neural Networks**  
+   [paper](https://arxiv.org/abs/2104.07145)
+
+2. [arXiv 2021] **Federated Graph Learning -- A Position Paper**  
+   [paper](https://arxiv.org/abs/2105.11099)
+
+3. [TNNLS 2025] **Federated Graph Neural Networks: Overview, Techniques and Challenges**  
+   [paper](https://ieeexplore.ieee.org/document/10733611)
+
+4. [arXiv 2024] **OpenFGL: A Comprehensive Benchmarks for Federated Graph Learning**  
+   [paper](https://arxiv.org/abs/2408.16288)
+
+5. [arXiv 2024-10-08] **FedGraph: A Research Library and Benchmark for Federated Graph Learning**  
+   [paper](https://arxiv.org/abs/2410.06340)
 
 
 ### Algorithm Papers
 
-1. \[Arxiv 2020\] **Federated Dynamic GNN with Secure Aggregation.** [paper](https://arxiv.org/pdf/2009.07351)
-2. \[Arxiv 2020\] **Privacy-Preserving Graph Neural Network for Node Classification.** [paper](https://arxiv.org/pdf/2005.11903)
-3. \[Arxiv 2020\] **ASFGNN: Automated Separated-Federated Graph Neural Network.** [paper](https://arxiv.org/pdf/2011.03248)
-4. \[Arxiv 2020\] **GraphFL: A Federated Learning Framework for Semi-Supervised Node Classification on Graphs.** [paper](https://arxiv.org/pdf/2012.04187)
-5. \[Arxiv 2021\] **FedGNN: Federated Graph Neural Network for Privacy-Preserving Recommendation.** [paper](https://arxiv.org/pdf/2102.04925)
-6. \[ICLR-DPML 2021\] **FedGraphNN: A Federated Learning System and Benchmark for Graph Neural Networks.** [paper](https://arxiv.org/pdf/2104.07145) [code](https://github.com/FedML-AI/FedGraphNN)
-7. \[Arxiv 2021\] **FL-AGCNS: Federated Learning Framework for Automatic Graph Convolutional Network Search.** [paper](https://arxiv.org/pdf/2104.04141)
-8. \[CVPR 2021\] **Cluster-driven Graph Federated Learning over Multiple Domains.** [paper](https://arxiv.org/pdf/2104.14628)
-9. \[Arxiv 2021\] **FedGL: Federated Graph Learning Framework with Global Self-Supervision.** [paper](https://arxiv.org/pdf/2105.03170)
-10. \[AAAI 2022\] **SpreadGNN: Serverless Multi-task Federated Learning for Graph Neural Networks.** [paper](https://arxiv.org/pdf/2106.02743)
-12. \[KDD 2021\] **Cross-Node Federated Graph Neural Network for Spatio-Temporal Data Modeling.** [paper](https://arxiv.org/pdf/2106.05223) [code](https://github.com/mengcz13/KDD2021_CNFGNN)
-13. \[Arxiv 2021\] **A Vertical Federated Learning Framework for Graph Convolutional Network.** [paper](https://arxiv.org/pdf/2106.11593)
-14. \[NeurIPS 2021\] **Federated Graph Classification over Non-IID Graphs.** [paper](https://arxiv.org/pdf/2106.13423)
-15. \[NeurIPS 2021\] **Subgraph Federated Learning with Missing Neighbor Generation.** [paper](https://arxiv.org/pdf/2106.13430)
-16. \[CIKM 2021\] **Differentially Private Federated Knowledge Graphs Embedding.** [paper](https://arxiv.org/pdf/2105.07615) [code](https://github.com/HKUST-KnowComp/FKGE)
-17. \[MICCAI Workshop 2021\] **A Federated Multigraph Integration Approach for Connectional Brain Template Learning.** [paper](https://link.springer.com/chapter/10.1007/978-3-030-89847-2_4)
-18. \[TPDS 2021] **FedGraph: Federated Graph Learning with Intelligent Sampling.** [paper](https://ieeexplore.ieee.org/abstract/document/9606516/) 
-19. [ACM TIST 2021] **Federated Social Recommendation with Graph Neural Network** [paper](https://arxiv.org/pdf/2111.10778)
-20. [CISS 2022] **Decentralized Graph Federated Multitask Learning for Streaming Data** [paper](https://doi.org/10.1109/CISS53076.2022.9751160)
-21. [JBHI 2022] **Dynamic Neural Graphs Based Federated Reptile for Semi-Supervised Multi-Tasking in Healthcare Applications** [paper](https://ieeexplore.ieee.org/document/9648036)
-22. [NeurIPS 2023] **FedGCN: Convergence and Communication Tradeoffs in Federated Training of Graph Convolutional Networks** [paper](https://arxiv.org/abs/2201.12433) [code](https://github.com/yh-yao/FedGCN)
+1. [DASFAA 2024] **FedSig: A Federated Graph Augmentation for Class-Imbalanced Node Classification**  
+   [paper](https://link.springer.com/chapter/10.1007/978-981-97-5492-1_3)
 
-## Federated Learning on Knowledge Graph
-1. \[IJCKG 2021\] **FedE: Embedding Knowledge Graphs in Federated Setting.** [paper](https://dl.acm.org/doi/abs/10.1145/3502223.3502233) [code](https://github.com/AnselCmy/FedE)
-2. \[Arxiv 2020\] **Improving Federated Relational Data Modeling via Basis Alignment and Weight Penalty.** [paper](https://arxiv.org/pdf/2011.11369)
-3. \[CIKM 2021\] **Federated Knowledge Graphs Embedding.**[paper](https://arxiv.org/pdf/2105.07615)
-4. \[Arxiv 2021\] **Leveraging a Federation of Knowledge Graphs to Improve Faceted Search in Digital Libraries.** [paper](https://arxiv.org/pdf/2107.05447)
-5. \[ACL Workshop 2022\] **Efficient Federated Learning on Knowledge Graphs via Privacy-preserving Relation Embedding Aggregation.** [paper](https://arxiv.org/abs/2203.09553) [code](https://github.com/taokz/FedR)
-6. \[IJCAI 2022\] **Meta-Learning Based Knowledge Extrapolation for Knowledge Graphs in the Federated Setting.** [paper](https://arxiv.org/abs/2205.04692) [code](https://github.com/zjukg/MaKEr)
+2. [ICDE 2024] **AdaFGL: A New Paradigm for Federated Node Classification with Topology Heterogeneity**  
+   [paper](https://ieeexplore.ieee.org/document/10597891)
 
-## Federated Graph Learning on IoT Devices
-1. [IoTDI 2023] **FedRule: Federated Rule Recommendation System with Graph Neural Networks** [paper](https://arxiv.org/abs/2211.06812) [code](https://github.com/yh-yao/FedRule)
-1. [NeurIPS 2023 Dataset Track] **Wyze Rule: Federated Rule Dataset for Rule Recommendation Benchmarking** [paper](https://openreview.net/forum?id=qynH28Y4xE) [dataset](https://huggingface.co/datasets/wyzelabs/RuleRecommendation)
+3. [arXiv 2024] **Optimizing Federated Graph Learning with Inherent Structural Knowledge and Dual-Densely Connected GNNs**  
+   [paper](https://arxiv.org/abs/2408.10276)
 
-## Private Graph Neural Networks
-1. \[IEEE Big Data 2019\] **A Graph Neural Network Based Federated Learning Approach by Hiding Structure.** [paper](https://www.researchgate.net/profile/Shijun_Liu3/publication/339482514_SGNN_A_Graph_Neural_Network_Based_Federated_Learning_Approach_by_Hiding_Structure/links/5f48365d458515a88b790595/SGNN-A-Graph-Neural-Network-Based-Federated-Learning-Approach-by-Hiding-Structure.pdf)
-2. \[Arxiv 2020\] **Locally Private Graph Neural Networks.** [paper](https://arxiv.org/pdf/2006.05535)
-3. \[Arxiv 2021\] **Privacy-Preserving Graph Convolutional Networks for Text Classification.** [paper](https://arxiv.org/pdf/2102.09604)
-4. \[Arxiv 2021\] **GraphMI: Extracting Private Graph Data from Graph Neural Networks.** [paper](https://arxiv.org/pdf/2106.02820)
-5. \[Arxiv 2021\] **Towards Representation Identical Privacy-Preserving Graph Neural Network via Split Learning.** [paper](https://arxiv.org/abs/2107.05917)
+4. [ICLR 2025] **Federated Graph Learning with Adaptive Importance-based Sampling**  
+   [paper](https://arxiv.org/abs/2409.14728)
+
+5. [arXiv 2024-08-18] **Federated Graph Learning with Structure Proxy Alignment**  
+   [paper](https://arxiv.org/abs/2408.09393)
+
+6. [IJCAI 2024] **FedTAD: Topology-aware Data-free Knowledge Distillation for Subgraph Federated Learning**  
+   [paper](https://www.ijcai.org/proceedings/2024/632)
+
+7. [NeurIPS 2024] **FedSSP: Federated Graph Learning with Spectral Knowledge and Personalized Preference**  
+   [paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3d226fb8fbd6ee6ec70d0427f1319707-Abstract-Conference.html)
+
+8. [arXiv 2024-11-18] **Toward Personalized Federated Node Classification in One-shot Communication**  
+   [paper](https://arxiv.org/abs/2411.12025)
+
+9. [NeurIPS GLFrontiers Workshop 2023] **One Node Per User: Node-Level Federated Learning for Graph Neural Networks**  
+   [paper](https://openreview.net/pdf?id=29f4d99dffcd2842b8067a0a08aa5a6f3cb56d7e)
+
+10. [arXiv 2024] **Federated Contrastive Learning of Graph-Level Representations**  
+    [paper](https://arxiv.org/abs/2411.12098)
 
 
-## Federated Learning: Survey
-1. \[IEEE Signal Processing Magazine 2019\] **Federated Learning：Challenges, Methods, and Future Directions.** [paper](https://arxiv.org/pdf/1908.07873)
-2. \[ACM TIST 2019\] **Federated Machine Learning Concept and Applications.** [paper](https://arxiv.org/pdf/1902.04885)
-3. \[IEEE Communications Surveys & Tutorials 2020\] **Federated Learning in Mobile Edge Networks A Comprehensive Survey.** [paper](https://arxiv.org/pdf/1909.11875)
+### Recommendation / Vertical FGL
 
-## Graph Neural Networks: Survey
-1. \[IEEE TNNLS 2020\] **A Comprehensive Survey on Graph Neural Networks.** [paper](https://arxiv.org/pdf/1901.00596)
-2. \[IEEE TKDE 2020\] **Deep Learning on Graphs: A Survey.** [paper](https://arxiv.org/pdf/1812.04202.pdf%E3%80%82)
-3. \[AI Open\] **Graph Neural Networks: A Review of Methods and Applications.** [paper](https://www.sciencedirect.com/science/article/pii/S2666651021000012)
-4. \[ArXiv 2021\] **Graph Neural Networks in Network Neuroscience.** [paper](https://arxiv.org/pdf/2106.03535.pdf) -- [GitHub repo of all reviewed papers](https://github.com/basiralab/GNNs-in-Network-Neuroscience)
+1. [ICML 2023] **Vertical Federated Graph Neural Network for Recommender System**  
+   [paper](https://icml.cc/virtual/2023/poster/24717)
 
+2. [arXiv 2023] **FedDCSR: Federated Cross-domain Sequential Recommendation via Disentangled Representation Learning**  
+   [paper](https://arxiv.org/abs/2309.08164)
+
+3. [arXiv 2024] **FedHCDR: Federated Cross-Domain Recommendation with Hypergraph Signal Decoupling**  
+   [paper](https://arxiv.org/abs/2403.03448)
