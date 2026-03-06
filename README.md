@@ -1,5 +1,21 @@
 # Federated Graph Learning Papers
 
+## Table of Contents
+- [Survey / Benchmark / Library](#survey)
+- [General Federated Graph Learning](#general)
+- [Topology / Structure Heterogeneity](#topology)
+- [Personalized Federated Graph Learning](#personalized)
+- [Communication-Efficient / One-Shot](#oneshot)
+- [Generalization / Domain Shift / OOD](#ood)
+- [Knowledge Transfer / Distillation](#distillation)
+- [Sampling / Augmentation / Imbalance](#sampling)
+- [Node-Level Federated Graph Learning](#nodelevel)
+- [Recommendation / Vertical Federated GNN](#recommendation)
+
+---
+
+<a id="survey"></a>
+
 ## Survey / Benchmark / Library
 - [arXiv 2021] **FedGraphNN: A Federated Learning System and Benchmark for Graph Neural Networks**  
   [paper](https://arxiv.org/abs/2104.07145)
@@ -15,6 +31,10 @@
 
 - [arXiv 2024] **FedGraph: A Research Library and Benchmark for Federated Graph Learning**  
   [paper](https://arxiv.org/abs/2410.06340)
+
+---
+
+<a id="general"></a>
 
 ## General Federated Graph Learning
 - [ICDM 2022] **GraphFL: A Federated Learning Framework for Semi-Supervised Node Classification on Graphs**  
@@ -32,6 +52,10 @@
 - [IEEE BigData 2024] **Federated Contrastive Learning of Graph-Level Representations**  
   [paper](https://ieeexplore.ieee.org/document/10825209)
 
+---
+
+<a id="topology"></a>
+
 ## Topology / Structure Heterogeneity
 - [ICDE 2024] **AdaFGL: A New Paradigm for Federated Node Classification with Topology Heterogeneity**  
   [paper](https://ieeexplore.ieee.org/document/10597891)
@@ -41,6 +65,10 @@
 
 - [arXiv 2024] **Federated Graph Learning with Structure Proxy Alignment**  
   [paper](https://arxiv.org/abs/2408.09393)
+
+---
+
+<a id="personalized"></a>
 
 ## Personalized Federated Graph Learning
 - [ICML 2023] **Personalized Subgraph Federated Learning**  
@@ -52,12 +80,20 @@
 - [arXiv 2024] **Toward Personalized Federated Node Classification in One-shot Communication**  
   [paper](https://arxiv.org/abs/2411.11304)
 
+---
+
+<a id="oneshot"></a>
+
 ## Communication-Efficient / One-Shot
 - [ICML 2025] **GHOST: Generalizable One-Shot Federated Graph Learning with Proxy-Based Topology Knowledge Retention**  
   [paper](https://proceedings.mlr.press/v267/qian25a.html)
 
 - [NeurIPS 2025] **OASIS: One-Shot Federated Graph Learning via Wasserstein Assisted Knowledge Integration**  
   [paper](https://neurips.cc/virtual/2025/poster/119003)
+
+---
+
+<a id="ood"></a>
 
 ## Generalization / Domain Shift / OOD
 - [AAAI 2024] **Federated Graph Learning under Domain Shift with Generalizable Prototypes**  
@@ -72,9 +108,17 @@
 - [NeurIPS 2025] **FedIGL: Federated Invariant Graph Learning for Non-IID Graphs**  
   [paper](https://neurips.cc/virtual/2025/poster/118909)
 
+---
+
+<a id="distillation"></a>
+
 ## Knowledge Transfer / Distillation
 - [IJCAI 2024] **FedTAD: Topology-aware Data-free Knowledge Distillation for Subgraph Federated Learning**  
   [paper](https://www.ijcai.org/proceedings/2024/632)
+
+---
+
+<a id="sampling"></a>
 
 ## Sampling / Augmentation / Imbalance
 - [DASFAA 2024] **FedSig: A Federated Graph Augmentation for Class-Imbalanced Node Classification**  
@@ -83,9 +127,17 @@
 - [arXiv 2024] **Federated Graph Learning with Adaptive Importance-based Sampling**  
   [paper](https://arxiv.org/abs/2409.14655)
 
+---
+
+<a id="nodelevel"></a>
+
 ## Node-Level Federated Graph Learning
 - [NeurIPS GLFrontiers Workshop 2023] **One Node Per User: Node-Level Federated Learning for Graph Neural Networks**  
   [paper](https://openreview.net/forum?id=29f4d99dffcd2842b8067a0a08aa5a6f3cb56d7e)
+
+---
+
+<a id="recommendation"></a>
 
 ## Recommendation / Vertical Federated GNN
 - [ICML 2023] **Vertical Federated Graph Neural Network for Recommender System**  
